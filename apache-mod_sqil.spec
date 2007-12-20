@@ -27,6 +27,7 @@ BuildRequires:	apache-mod_form-devel
 BuildRequires:	apache-mod_delay-devel
 BuildRequires:	librecode-devel
 BuildRequires:	file
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_sqil is an output filter module that generates XML from database content
