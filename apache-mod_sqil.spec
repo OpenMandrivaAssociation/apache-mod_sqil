@@ -6,7 +6,7 @@
 Summary:	Structured Query Interface Language (SQIL) module for Apache2
 Name:		apache-%{mod_name}
 Version:	1.0
-Release:	%mkrel 7
+Release:	%mkrel 8
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.heute-morgen.de/modules/mod_sqil/
