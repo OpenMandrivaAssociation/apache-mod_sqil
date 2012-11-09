@@ -1,0 +1,11 @@
+--- mod_sqil.c	2009-01-07 10:46:19.000000000 +0100
++++ mod_sqil.c.oden	2009-01-07 10:46:55.000000000 +0100
+@@ -845,7 +845,7 @@ static void sqil_start_ns( xmlns_public*
+   else {
+     errmsg = "Error acquiring connection." ;
+     //	error message for failed to acquire
+-    ap_log_rerror(APLOG_MARK, APLOG_ERR, 0, ctx->f->r, errmsg) ;
++    ap_log_rerror(APLOG_MARK, APLOG_ERR, 0, ctx->f->r, "%s", errmsg) ;
+     //	ap_fprintf(ctx->f->next, ctx->bb, errmsg) ;
+ 
+     return ;
