@@ -9,7 +9,7 @@ Version:	1.0
 Release:	%mkrel 11
 Group:		System/Servers
 License:	Apache License
-URL:		http://www.heute-morgen.de/modules/mod_sqil/
+URL:		https://www.heute-morgen.de/modules/mod_sqil/
 Source0:	%{mod_name}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Patch0:		mod_sqil-format_not_a_string_literal_and_no_format_arguments.diff
